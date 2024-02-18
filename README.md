@@ -29,3 +29,24 @@ Output Format:
 
 Display the lengths of the LCS and LCIS.
 Output the actual sequences of the LCS and LCIS.
+
+Example:
+
+yaml
+Copy code
+Input:
+First string: abcdab
+Second string: bdcab
+
+Output:
+Length of LCS: 4
+Length of LCIS: 3
+LCS: bcab
+LCIS: bcd
+Performance Analysis:
+
+Analyze the time complexity of both LCS_DP_1 and LCS_DP_2 algorithms in terms of the lengths of the input strings.
+Compare the time taken by both algorithms to compute the LCS and LCIS for various input sizes.
+Note:
+
+Ensure to provide appropriate error handling for file input/output operations and invalid input scenarios.
